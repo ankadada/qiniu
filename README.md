@@ -1,4 +1,5 @@
 本插件目前的功能: 
+
 1. 上传/删除 图片
 2. 上传/删除 附件
 3. 上传/更新 分类信息图片
@@ -44,8 +45,9 @@ IIS:
 ```
 
 # 待开发
-点评/评分 后图片地址替换
-远程图片下载 文件名使用原文件名
+
+1. 点评/评分 后图片地址替换
+2. 远程图片下载 文件名使用原文件名
 
 ```
 select * from (select id,name,'table0' as t from table_0 union all select id,name,'table1' as t from table_1 union all select id,name,'table2' as t from table_2 ......) as t where t.name = ?
