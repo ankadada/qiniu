@@ -1,5 +1,9 @@
 <?php
 
+	if(!defined('IN_DISCUZ')) {
+		exit('Access Denied');
+	}
+
 	class plugin_qiniu{
 
 		public function post_upload_extend(){
@@ -183,9 +187,6 @@
 
 			}
 
-		}
-
-		public function post_top(){
 		}
 
 	}
